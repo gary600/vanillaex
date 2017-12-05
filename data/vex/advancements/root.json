@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": "VanillaEX",
+    "description": "Expansions for vanilla Minecraft",
+    "background": "minecraft:textures/blocks/furnace_front.png"
+  },
+  "criteria": {
+    "acquireHardware": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  }
+}
