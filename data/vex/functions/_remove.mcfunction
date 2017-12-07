@@ -2,10 +2,10 @@
 gamerule gameLoopFunction -
 
 # Remove vex_globals
-kill @e[type=armor_stand,name=vex_globals]
+kill @e[type=armor_stand,nbt={CustomName:vex_globals,Invulnerable:1b}]
 
 # Remove machines
-kill @e[type=armor_stand,name=vex_grinder]
+kill @e[type=armor_stand,nbt={CustomName:vex_grinder,Invulnerable:1b}]
 
 # Remove scoreboard objectives
 scoreboard objectives remove vex_version
