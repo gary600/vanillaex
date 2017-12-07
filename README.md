@@ -7,9 +7,9 @@ Windows: `%appdata%\.minecraft\saves\*worldname*\datapacks`
 MacOS: `~/Library/Application Support/minecraft/saves/*worldname*/datapacks`  
 Linux: `~/.minecraft/saves/*worldname*/datapacks`  
 
-After it's installed, open up you Minecraft world and enable and start the pack:
+After it's installed, open up you Minecraft world. **Navigate to the spawn point**, then run these commands:  
 ```
-/datapack enable "folder/vanillaex"
+/datapack enable "file/vanillaex"
 /function vex:start
 ```
 After that, you're all done! Check out the Wiki for info on how to make the machines, etc.

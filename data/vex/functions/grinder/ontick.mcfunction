@@ -1,7 +1,7 @@
 # Grinder Selector: @e[type=armor_stand,nbt={CustomName:vex_grinder,Invulnerable:1b}]
 
 # Create a grinder if requirements are met
-# Requirements: Drop a diamond on top of a lit furnace
+# Requirements: Drop a diamond block on top of a furnace
 execute at @e[nbt={Item:{id:"minecraft:diamond_block",Count:1b}}] if block ~ ~-1 ~ minecraft:furnace unless entity @e[type=armor_stand,nbt={CustomName:"vex_grinder",Invulnerable:1b},distance=..2] run function vex:grinder/create
 
 # Create grinding animation

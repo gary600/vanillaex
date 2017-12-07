@@ -1,6 +1,3 @@
-# Unregister gameLoopFunction
-gamerule gameLoopFunction -
-
 # Remove vex_globals
 kill @e[type=armor_stand,nbt={CustomName:vex_globals,Invulnerable:1b}]
 
